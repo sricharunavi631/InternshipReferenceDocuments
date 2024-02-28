@@ -1,0 +1,81 @@
+Sure, here are 10 multiple-choice questions on Java access specifiers along with their answers:
+
+1. What is the default access specifier for class members (variables and methods) in Java?
+   A) public
+   B) protected
+   C) private
+   D) default (package-private)
+   
+   Answer: D) default (package-private)
+
+2. Which access specifier allows a member to be accessible only within its own class?
+   A) public
+   B) protected
+   C) private
+   D) default (package-private)
+   
+   Answer: C) private
+
+3. Which access specifier allows a member to be accessible within its own class, subclasses, and in the same package?
+   A) public
+   B) protected
+   C) private
+   D) default (package-private)
+   
+   Answer: B) protected
+
+4. What access specifier provides the widest access to a class member in Java?
+   A) public
+   B) protected
+   C) private
+   D) default (package-private)
+   
+   Answer: A) public
+
+5. Which access specifier is appropriate for class members that need to be accessed from any part of the program?
+   A) public
+   B) protected
+   C) private
+   D) default (package-private)
+   
+   Answer: A) public
+
+6. In Java, which access specifier cannot be used for top-level classes?
+   A) public
+   B) protected
+   C) private
+   D) default (package-private)
+   
+   Answer: C) private
+
+7. Which access specifier restricts the access of a class member only to the same package?
+   A) public
+   B) protected
+   C) private
+   D) default (package-private)
+   
+   Answer: D) default (package-private)
+
+8. Which access specifier allows access to class members within the same package and subclasses outside the package?
+   A) public
+   B) protected
+   C) private
+   D) default (package-private)
+   
+   Answer: B) protected
+
+9. Which access specifier is used for variables or methods that should not be accessible outside the class or package?
+   A) public
+   B) protected
+   C) private
+   D) default (package-private)
+   
+   Answer: C) private
+
+10. In Java, which access specifier should be used for interface methods?
+   A) public
+   B) protected
+   C) private
+   D) default (package-private)
+   
+   Answer: A) public
