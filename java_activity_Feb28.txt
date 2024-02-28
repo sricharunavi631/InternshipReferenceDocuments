@@ -1,0 +1,124 @@
+// Command - line: java TestApp abcqfghqbcd
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+class TestApp {
+
+  public static void main(String args[]) throws IOException {
+    char bit;
+    BufferedReader obj = new BufferedReader(new InputStreamReader(System.in));
+    do {
+      bit = (char) obj.read();
+      System.out.print(bit);
+    } while (bit != 'q');
+  }
+}
+
+A. abcqfgh
+B. abc
+C. abcq
+D. abcqfghq
+
+Ans : C
+
+
+public class SimpleTest {
+  public static void stringReplace(String str) {
+    str = str.replace('c', 'c');
+  }
+
+  public static void bufferReplace(StringBuffer str) {
+    str.trimToSize();
+  }
+
+  public static void main(String args[]) {
+    String myString = new String("cplus");
+    StringBuffer myBuffer = new StringBuffer(" plus");
+    stringReplace(myString);
+    bufferReplace(myBuffer);
+    System.out.println(myString + myBuffer);
+  }
+}
+
+A. cplusplus
+B. plus plus
+C. cplus plus
+D. c plus plus
+
+Ans : C
+
+inpt: abc’def/’egh
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class SimpleTest {
+
+  public static void main(String args[]) throws IOException {
+    char bit;
+    BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
+    do {
+      bit = (char) console.read();
+      System.out.print(bit);
+    } while (bit != '\'');
+  }
+}
+
+
+A. abc’
+B. abcdef/’
+C. abc’def/’egh
+D. abcqfghq
+
+ANs : C
+
+
+public class SimpleTest {
+
+  public static void main(String args[]) {
+    String str = (String) returnStringAsArray()[-1 + 1 * 2];
+    System.out.println(str);
+  }
+
+  public static Object[] returnStringAsArray() {
+    return new String[] {
+      "Java",
+      "Quiz"
+    };
+  }
+}
+A. Java
+B. ArrayIndexOutOfBoundsException
+C. Quiz
+D. Compilation error
+
+Ans : C
+
+
+ver here to view the answer!
+Question-28. What would the below Java coding snippet print on execution?
+public class SimpleTest {
+
+  public static void main(String args[]) {
+    try {
+      args[0] = "0";
+      return;
+
+    } catch (Exception e) {
+      System.out.print("Exception");
+    } finally {
+      System.out.print("Final");
+    }
+  }
+}
+
+A. Exception
+B. Final
+C. ExceptionFinal
+D. Compilation error
+
+
+Ans :C

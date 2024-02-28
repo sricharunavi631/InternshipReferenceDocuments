@@ -1,0 +1,387 @@
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> colors = new ArrayList<>();
+        colors.add("Red");
+        colors.add("Green");
+        colors.add("Blue");
+        colors.add("Red");
+        
+        colors.remove("Red");
+        
+        for (String color : colors) {
+            System.out.print(color + " ");
+        }
+    }
+}
+a) Red Green Blue
+b) Green Blue Red
+c) Blue Green
+d) Compilation Error
+
+Answer:
+B) 
+
+
+```java
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.add(1);
+        numbers.add(2);
+        numbers.add(3);
+        
+        numbers.remove(1);
+        
+        for (int num : numbers) {
+            System.out.print(num + " ");
+        }
+    }
+}
+```
+
+a) 1 3  
+b) 2 3  
+c) 1 2 3  
+d) Compilation Error  
+
+**Answer:**  
+a) 1 3  
+
+**Explanation:**  
+The `remove(1)` method removes the element at index 1 (the second element) from the ArrayList. So, the output will be "1 3".
+
+---
+
+**Question 2:**  
+What will be the output of the following Java code snippet?
+
+```java
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> colors = new ArrayList<>();
+        colors.add("Red");
+        colors.add("Green");
+        colors.add("Blue");
+        colors.add("Green");
+        
+        colors.remove("Green");
+        
+        System.out.println(colors.size());
+    }
+}
+```
+
+a) 3  
+b) 2  
+c) 4  
+d) Compilation Error  
+
+**Answer:**  
+a) 3  
+
+**Explanation:**  
+The `remove("Green")` method removes the first occurrence of "Green" from the ArrayList. After removal, the size of the ArrayList will be 3.
+
+---
+
+**Question 3:**  
+What will be the output of the following Java code snippet?
+
+```java
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.add(1);
+        numbers.add(2);
+        numbers.add(3);
+        
+        numbers.remove(Integer.valueOf(2));
+        
+        for (int num : numbers) {
+            System.out.print(num + " ");
+        }
+    }
+}
+```
+
+a) 1 2  
+b) 1 3  
+c) 2 3  
+d) Compilation Error  
+
+**Answer:**  
+b) 1 3  
+
+**Explanation:**  
+The `remove(Integer.valueOf(2))` method removes the element with the value 2 from the ArrayList. So, the output will be "1 3".
+
+---
+
+**Question 4:**  
+What will be the output of the following Java code snippet?
+
+```java
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> fruits = new ArrayList<>();
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add("Orange");
+        
+        fruits.clear();
+        
+        System.out.println(fruits.isEmpty());
+    }
+}
+```
+
+a) true  
+b) false  
+c) Compilation Error  
+d) Runtime Error  
+
+**Answer:**  
+a) true  
+
+**Explanation:**  
+The `clear()` method removes all elements from the ArrayList. So, after calling `clear()`, the ArrayList becomes empty, and `fruits.isEmpty()` will return true.
+
+---
+
+**Question 5:**  
+What will be the output of the following Java code snippet?
+
+```java
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> colors = new ArrayList<>();
+        colors.add("Red");
+        colors.add("Green");
+        colors.add("Blue");
+        
+        System.out.println(colors.get(1));
+    }
+}
+```
+
+a) Red  
+b) Green  
+c) Blue  
+d) Compilation Error  
+
+**Answer:**  
+b) Green  
+
+**Explanation:**  
+The `get(1)` method retrieves the element at index 1 from the ArrayList, which is "Green". So, the output will be "Green".
+
+**Question:**  
+What will be the output of the following Java code snippet?
+
+```java
+import java.util.LinkedList;
+
+public class Main {
+    public static void main(String[] args) {
+        LinkedList<Integer> numbers = new LinkedList<>();
+        numbers.add(1);
+        numbers.add(2);
+        numbers.add(3);
+        
+        numbers.remove(1);
+        
+        System.out.println(numbers.size());
+    }
+}
+```
+
+a) 2  
+b) 3  
+c) 1  
+d) Compilation Error  
+
+**Answer:**  
+b) 3  
+
+**Explanation:**  
+The `remove(1)` method removes the element at index 1 from the LinkedList, which is the second element (value 2). After removal, the size of the LinkedList will be 3.
+
+
+Certainly! Here are five multiple-choice questions regarding LinkedLists in Java:
+
+**Question 1:**  
+What will be the output of the following Java code snippet?
+
+```java
+import java.util.LinkedList;
+
+public class Main {
+    public static void main(String[] args) {
+        LinkedList<String> colors = new LinkedList<>();
+        colors.add("Red");
+        colors.add("Green");
+        colors.add("Blue");
+        
+        colors.removeFirst();
+        
+        System.out.println(colors.size());
+    }
+}
+```
+
+a) 1  
+b) 2  
+c) 3  
+d) Compilation Error  
+
+**Answer:**  
+b) 2  
+
+**Explanation:**  
+The `removeFirst()` method removes the first element from the LinkedList. After removal, the size of the LinkedList will be 2.
+
+---
+
+**Question 2:**  
+What will be the output of the following Java code snippet?
+
+```java
+import java.util.LinkedList;
+
+public class Main {
+    public static void main(String[] args) {
+        LinkedList<Integer> numbers = new LinkedList<>();
+        numbers.add(1);
+        numbers.add(2);
+        numbers.add(3);
+        
+        numbers.removeLast();
+        
+        System.out.println(numbers.get(1));
+    }
+}
+```
+
+a) 1  
+b) 2  
+c) 3  
+d) Compilation Error  
+
+**Answer:**  
+a) 1  
+
+**Explanation:**  
+The `removeLast()` method removes the last element from the LinkedList. After removal, the element at index 1 (the second element) will be 1.
+
+---
+
+**Question 3:**  
+What will be the output of the following Java code snippet?
+
+```java
+import java.util.LinkedList;
+
+public class Main {
+    public static void main(String[] args) {
+        LinkedList<String> colors = new LinkedList<>();
+        colors.add("Red");
+        colors.add("Green");
+        colors.add("Blue");
+        
+        colors.add(1, "Yellow");
+        
+        System.out.println(colors.get(2));
+    }
+}
+```
+
+a) Red  
+b) Green  
+c) Yellow  
+d) Compilation Error  
+
+**Answer:**  
+b) Yellow  
+
+**Explanation:**  
+The `add(1, "Yellow")` method inserts the element "Yellow" at index 1, shifting the existing elements to the right. So, the element at index 2 will be "Yellow".
+
+---
+
+**Question 4:**  
+What will be the output of the following Java code snippet?
+
+```java
+import java.util.LinkedList;
+
+public class Main {
+    public static void main(String[] args) {
+        LinkedList<Integer> numbers = new LinkedList<>();
+        numbers.add(1);
+        numbers.add(2);
+        numbers.add(3);
+        
+        numbers.clear();
+        
+        System.out.println(numbers.isEmpty());
+    }
+}
+```
+
+a) true  
+b) false  
+c) Compilation Error  
+d) Runtime Error  
+
+**Answer:**  
+a) true  
+
+**Explanation:**  
+The `clear()` method removes all elements from the LinkedList. After calling `clear()`, the LinkedList becomes empty, so `isEmpty()` returns true.
+
+---
+
+**Question 5:**  
+What will be the output of the following Java code snippet?
+
+```java
+import java.util.LinkedList;
+
+public class Main {
+    public static void main(String[] args) {
+        LinkedList<String> colors = new LinkedList<>();
+        colors.add("Red");
+        colors.add("Green");
+        colors.add("Blue");
+        
+        colors.remove("Green");
+        
+        System.out.println(colors.contains("Green"));
+    }
+}
+```
+
+a) true  
+b) false  
+c) Compilation Error  
+d) Runtime Error  
+
+**Answer:**  
+b) false  
+
+**Explanation:**  
+The `remove("Green")` method removes the first occurrence of "Green" from the LinkedList. After removal, "Green" is no longer present in the list, so `contains("Green")` returns false.
+
+---
