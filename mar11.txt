@@ -1,0 +1,201 @@
+Sure, here are 25 multiple choice questions with answers in core Java:
+
+1. What is the result of 10 % 3 in Java?
+   a) 3
+   b) 1
+   c) 0
+   d) 2
+   **Answer: b) 1**
+
+2. Which keyword is used to define a constant in Java?
+   a) final
+   b) const
+   c) static
+   d) constant
+   **Answer: a) final**
+
+3. What does JVM stand for?
+   a) Java Virtual Machine
+   b) Java Virtual Memory
+   c) Java Variable Machine
+   d) Java Visual Machine
+   **Answer: a) Java Virtual Machine**
+
+4. Which of the following statements is true about Java interfaces?
+   a) Interfaces can contain implementation of methods.
+   b) Interfaces cannot extend other interfaces.
+   c) A class can implement multiple interfaces.
+   d) Interfaces can have constructors.
+   **Answer: c) A class can implement multiple interfaces.**
+
+5. What is the superclass of all classes in Java?
+   a) Object
+   b) Class
+   c) Super
+   d) None of the above
+   **Answer: a) Object**
+
+6. What will be the output of the following code snippet?
+
+   ```java
+   int x = 5;
+   int y = 2;
+   System.out.println(x / y);
+   ```
+   a) 2.5
+   b) 2
+   c) 2.0
+   d) Error
+   **Answer: b) 2**
+
+7. Which of the following is not a valid primitive data type in Java?
+   a) float
+   b) char
+   c) string
+   d) double
+   **Answer: c) string**
+
+8. What is the default value of an instance variable of an object in Java?
+   a) 0
+   b) Null
+   c) Depends on the type of variable
+   d) 1
+   **Answer: c) Depends on the type of variable**
+
+9. What is the access modifier of a default constructor in Java?
+   a) public
+   b) private
+   c) protected
+   d) default
+   **Answer: a) public**
+
+10. What keyword is used to prevent method overriding in Java?
+    a) override
+    b) final
+    c) abstract
+    d) static
+    **Answer: b) final**
+
+11. What is the output of the following code snippet?
+
+    ```java
+    String str1 = "Hello";
+    String str2 = new String("Hello");
+    System.out.println(str1 == str2);
+    ```
+    a) true
+    b) false
+    c) Error
+    d) Depends on Java version
+    **Answer: b) false**
+
+12. What does the 'static' keyword mean in Java?
+    a) It indicates that the method or variable belongs to the class, not instances.
+    b) It indicates that the method or variable can be accessed only by other classes in the same package.
+    c) It indicates that the method or variable can be modified.
+    d) It indicates that the method or variable is dynamic.
+    **Answer: a) It indicates that the method or variable belongs to the class, not instances.**
+
+13. Which collection class allows null as a value in Java?
+    a) HashSet
+    b) LinkedList
+    c) TreeMap
+    d) ArrayList
+    **Answer: a) HashSet**
+
+14. What is the purpose of the 'super' keyword in Java?
+    a) It refers to the superclass of a class.
+    b) It calls the superclass constructor.
+    c) It calls the superclass method.
+    d) All of the above
+    **Answer: d) All of the above**
+
+15. What will be the result of the following code snippet?
+
+    ```java
+    String str = "Java";
+    str.concat(" is fun");
+    System.out.println(str);
+    ```
+    a) Java
+    b) Java is fun
+    c) is fun
+    d) Compilation error
+    **Answer: a) Java**
+
+16. Which keyword is used to implement multiple inheritance in Java?
+    a) implements
+    b) extends
+    c) interface
+    d) None of the above
+    **Answer: c) interface**
+
+17. What is the difference between == and equals() method in Java?
+    a) Both are used for comparison of objects.
+    b) == compares reference while equals() compares content.
+    c) == compares content while equals() compares reference.
+    d) Both are used to compare primitive data types.
+    **Answer: b) == compares reference while equals() compares content.**
+
+18. Which of the following is not a valid identifier in Java?
+    a) _variable
+    b) $variable
+    c) 1variable
+    d) variable_
+    **Answer: c) 1variable**
+
+19. What is the purpose of the 'break' statement in Java?
+    a) It terminates the loop or switch statement.
+    b) It skips the rest of the loop and starts the next iteration.
+    c) It throws an exception.
+    d) It continues the loop with the next iteration.
+    **Answer: a) It terminates the loop or switch statement.**
+
+20. What is a wrapper class in Java?
+    a) It is a class used to wrap primitive data types.
+    b) It is a class that contains methods for string manipulation.
+    c) It is a class used for input/output operations.
+    d) It is a class used to wrap arrays.
+    **Answer: a) It is a class used to wrap primitive data types.**
+
+21. What does the 'volatile' keyword mean in Java?
+    a) It indicates that a variable is constant.
+    b) It indicates that a variable's value may be changed by multiple threads.
+    c) It indicates that a variable is private.
+    d) It indicates that a variable cannot be modified.
+    **Answer: b) It indicates that a variable's value may be changed by multiple threads.**
+
+22. What is the purpose of the 'throws' keyword in Java?
+    a) It indicates that a method may throw an exception.
+    b) It indicates that a method cannot throw an exception.
+    c) It indicates that a method is a subclass.
+    d) It indicates that a method is overloaded.
+    **Answer: a) It indicates that a method may throw an exception.**
+
+23. What is the output of the following code snippet?
+
+    ```java
+    int arr[] = {1, 2, 3, 4, 5};
+    System.out.println(arr.length);
+    ```
+    a) 1
+    b) 5
+    c) Error
+    d) Depends on the array content
+    **Answer: b) 5**
+
+24. Which of the following is not a type of inheritance in Java?
+    a) Single
+    b) Multiple
+    c) Hybrid
+    d) Hierarchical
+    **Answer: b) Multiple**
+
+25. What is the purpose of the 'this' keyword in Java?
+    a) It refers to the current object.
+    b) It refers to the superclass of a class.
+    c) It is used to
+
+ initialize instance variables.
+    d) It is used to invoke overloaded constructors.
+    **Answer: a) It refers to the current object.**
